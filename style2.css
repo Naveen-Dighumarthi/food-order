@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background:navajowhite;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+/* Update these styles for the login form */
+form {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Update styles for the registration link */
+div p a {
+    color: blue;
+}
+
+/* Style for overlay */
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    color: white;
+    font-size: 24px;
+    z-index: 999; /* Ensure it's above other elements */
+}
+
+/* Style for the message box */
+.message-box {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
